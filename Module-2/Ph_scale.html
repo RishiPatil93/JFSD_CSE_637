@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pH Scale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 8px;
+            overflow: hidden;
+
+        }
+        .ph-scale {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+        }
+        .ph-level {
+            width: 100%;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid black;
+        }
+        .Alkaline { background: blue; } /* Blue - Alkaline */
+        .H { background: rgb(44, 44, 244); }
+        .I { background: #3535ea; }
+        .J { background: rgb(73, 73, 241); }
+        .K { background: rgb(92, 92, 247); }   
+        .L { background: rgb(117, 117, 240); }
+        .M { background: rgb(159, 159, 248); }
+
+
+
+
+
+        .neutral { background: #008000; } /* Green - Neutral */
+        .Acid { background: rgb(240, 71, 71); }  /* Red - Acidic */
+        .B { background: rgb(248, 6, 6)}
+        .C { background: rgb(241, 105, 105)}
+        .D { background: rgb(243, 125, 125)}
+        .E { background: rgb(235, 139, 139)}
+        .F { background: rgb(250, 172, 172)}
+        .G { background: rgb(250, 196, 196)}
+    </style>
+</head>
+<body>
+    <h1>pH Scale</h1>
+    <div class="container">
+        <div class="ph-level Alkaline">14 - Very Alkaline</div>
+        <div class="ph-level H">13</div>
+        <div class="ph-level I">12</div>
+        <div class="ph-level J">11</div>
+        <div class="ph-level K">10</div>
+        <div class="ph-level L">9</div>
+        <div class="ph-level M">8</div>
+        <div class="ph-level neutral">7 - Neutral</div>
+        <div class="ph-scale">
+            <div class="ph-level G">6</div>
+            <div class="ph-level F">5</div>
+            <div class="ph-level E">4</div>
+            <div class="ph-level D">3</div>
+            <div class="ph-level C">2</div>
+            <div class="ph-level Acid">1</div>
+            <div class="ph-level B">0 - Very Acidic</div>
+    </div>
+</div>
+
+</body>
+</html>
+\
